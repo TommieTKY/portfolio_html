@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(135deg,
+            rgba(255, 182, 193, 0.3),
+            /* Light Pink */
+            rgba(255, 223, 186, 0.3),
+            /* Light Orange */
+            rgba(255, 255, 186, 0.3),
+            /* Light Yellow */
+            rgba(186, 255, 201, 0.3),
+            /* Light Green */
+            rgba(186, 225, 255, 0.3),
+            /* Light Blue */
+            rgba(209, 186, 255, 0.3)
+            /* Light Purple */
+        );
+}
+
+.navbar {
+    background: linear-gradient(135deg,
+            rgba(255, 182, 193, 0.2),
+            rgba(255, 223, 186, 0.2),
+            rgba(255, 255, 186, 0.2),
+            rgba(186, 255, 201, 0.2),
+            rgba(186, 225, 255, 0.2),
+            rgba(209, 186, 255, 0.2));
+}
+
+.borderStyle {
+    border: 10px solid;
+    border-image: linear-gradient(-45deg,
+            rgba(255, 182, 193, 1),
+            rgba(255, 223, 186, 1),
+            rgba(255, 255, 186, 1),
+            rgba(186, 255, 201, 1),
+            rgba(186, 225, 255, 1),
+            rgba(209, 186, 255, 1)) 1;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.sectiontop {
+    padding-top: 4rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.lineHeight {
+    line-height: 3rem;
+}
+
+.aboutmeContainer{
+    padding: 2rem 6rem;
+}
+
+.contacticon {
+    color: peru;
+    font-size: 5rem;
+    margin: 2rem;
+}
+
+.skillicon {
+    margin: 0 0.5rem;
+    width: 5rem;
+}
+
+@media (max-width: 430px) {
+
+    /* Main container adjustments */
+    main {
+        gap: 0.5rem;
+        padding: 0rem;
+    }
+
+    .sectiontop {
+        padding-top: 2rem;
+    }
+
+    /* Headings */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .lineHeight {
+        line-height: 1.5rem;
+    }
+
+    .aboutmeContainer {
+        padding: 1rem;
+    }
+
+    .contacticon {
+        font-size: 3rem;
+        margin: 1rem;
+    }
+
+    .skillicon {
+        width: 3rem;
+        margin: 0 0.3rem;
+    }
+}
