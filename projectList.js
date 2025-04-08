@@ -1,5 +1,21 @@
 const PROJECTLIST = [
   {
+    link: "https://discover-toronto-events-on-map.onrender.com/",
+    title: "Discover Toronto Events on Map",
+    description:
+      "This project is a web application that displays upcoming Toronto events on an interactive Google Map, allowing users to explore event details and filter them by date. It helps users easily plan outings and discover what's happening around the city.",
+    skills: ["Express.js", "Node.js", "Google Maps API"],
+    image: "./image/project/discover-toronto-events-on-map.jpeg",
+  },
+  {
+    link: "https://springgreen-trout-818076.hostingersite.com/",
+    title: "Toronto Attractions",
+    description:
+      "This project is a PHP-based admin dashboard for managing Toronto attractions, allowing admins to view, add, edit, and delete user accounts and attraction descriptions using a Bootstrap-styled responsive interface. It features role-based access, responsive design, and dynamic content rendered from a MySQL database.",
+    skills: ["PHP", "MySQL"],
+    image: "./image/project/TorontoAttractions.png",
+  },
+  {
     link: "https://github.com/TommieTKY/artgallery",
     title: "Art Gallery",
     description:
@@ -24,14 +40,6 @@ const PROJECTLIST = [
     image: `./image/project/Dimsum in the Sea.png`,
   },
   {
-    link: "https://tommietky.github.io/PastGroceryFlyer/",
-    title: "Tommie's Past Grocery Flyer",
-    description:
-      "This project presents an interactive archive of past grocery flyers, allowing users to browse historical deals and promotions with ease. Its clean, user-friendly design offers a nostalgic glimpse into previous retail advertisements.",
-    skills: ["HTML", "CSS", "JavaScript"],
-    image: `./image/project/grocery.jpeg`,
-  },
-  {
     link: "https://tommietky.github.io/pizzamaker/",
     title: "Build Your Perfect Pizza",
     description:
@@ -39,14 +47,22 @@ const PROJECTLIST = [
     skills: ["HTML", "CSS", "JavaScript"],
     image: `./image/project/pizza.jpeg`,
   },
-  {
-    link: "https://tommietky.github.io/blog/",
-    title: "Blog",
-    description:
-      "This blog project features a simple, one-page design with a clean and minimalist layout.",
-    skills: ["HTML", "CSS"],
-    image: `./image/project/blog.png`,
-  },
+  // {
+  //   link: "https://tommietky.github.io/PastGroceryFlyer/",
+  //   title: "Tommie's Past Grocery Flyer",
+  //   description:
+  //     "This project presents an interactive archive of past grocery flyers, allowing users to browse historical deals and promotions with ease. Its clean, user-friendly design offers a nostalgic glimpse into previous retail advertisements.",
+  //   skills: ["HTML", "CSS", "JavaScript"],
+  //   image: `./image/project/grocery.jpeg`,
+  // },
+  // {
+  //   link: "https://tommietky.github.io/blog/",
+  //   title: "Blog",
+  //   description:
+  //     "This blog project features a simple, one-page design with a clean and minimalist layout.",
+  //   skills: ["HTML", "CSS"],
+  //   image: `./image/project/blog.png`,
+  // },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

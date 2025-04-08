@@ -59,6 +59,10 @@ const SKILLLIST = [
     name: "Unity",
     src: "https://img.icons8.com/?size=100&id=39848&format=png&color=000000",
   },
+  {
+    name: "Figma",
+    src: "https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000",
+  },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
