@@ -16,10 +16,18 @@ const PROJECTLIST = [
     image: "./image/project/TorontoAttractions.png",
   },
   {
-    link: "https://github.com/TommieTKY/artgallery",
-    title: "Art Gallery",
+    link: "https://github.com/TommieTKY/kidspark",
+    title: "KidSpark",
     description:
-      "ArtGallery is a web application built with ASP.NET Core MVC that provides a comprehensive platform for managing and exploring art galleries.",
+      "A comprehensive platform for managing after-school programs and instructors with full CRUD functionality.",
+    skills: ["Laravel", "PHP", "Boostrap"],
+    image: "./image/project/kidspark.png",
+  },
+  {
+    link: "https://github.com/TommieTKY/pet_artworks_platform",
+    title: "Pet Artworks Platform",
+    description:
+      "Pet Artworks Platform is a creative collaboration web application that bridges the ArtGallery and PawPals projects.",
     skills: ["C#", "ASP.NET", "MySQL"],
     image: "./image/project/artgallery.jpeg",
   },
@@ -39,14 +47,14 @@ const PROJECTLIST = [
     skills: ["Unity", "C#"],
     image: `./image/project/Dimsum in the Sea.png`,
   },
-  {
-    link: "https://tommietky.github.io/pizzamaker/",
-    title: "Build Your Perfect Pizza",
-    description:
-      "The project is a fun and interactive web app that lets users customize their own pizza by selecting ingredients. It features a simple and user-friendly interface, making it easy to visualize and create unique pizza combinations. 🍕",
-    skills: ["HTML", "CSS", "JavaScript"],
-    image: `./image/project/pizza.jpeg`,
-  },
+  // {
+  //   link: "https://tommietky.github.io/pizzamaker/",
+  //   title: "Build Your Perfect Pizza",
+  //   description:
+  //     "The project is a fun and interactive web app that lets users customize their own pizza by selecting ingredients. It features a simple and user-friendly interface, making it easy to visualize and create unique pizza combinations. 🍕",
+  //   skills: ["HTML", "CSS", "JavaScript"],
+  //   image: `./image/project/pizza.jpeg`,
+  // },
   // {
   //   link: "https://tommietky.github.io/PastGroceryFlyer/",
   //   title: "Tommie's Past Grocery Flyer",
