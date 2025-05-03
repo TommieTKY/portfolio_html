@@ -1,5 +1,13 @@
 const PROJECTLIST = [
   {
+    link: "https://grocery-price-checker-front-end.vercel.app/",
+    title: "Grocery Price Checker",
+    description:
+      "A React-based web application for comparing grocery prices across stores and categories, with interactive filtering, routing, and price‐per‐unit calculations.",
+    skills: ["React", "Bootstrap"],
+    image: `./image/project/grocery-price-checker-front-end.jpeg`,
+  },
+  {
     link: "https://discover-toronto-events-on-map.onrender.com/",
     title: "Discover Toronto Events on Map",
     description:
@@ -39,14 +47,14 @@ const PROJECTLIST = [
     skills: ["HTML", "CSS", "PHP"],
     image: `./image/project/pixelate.png`,
   },
-  {
-    link: "https://tommietong.itch.io/dimsum-in-the-sea",
-    title: "Dimsum in the Sea",
-    description:
-      "Dimsum in the Sea is an immersive game on itch.io that offers a whimsical underwater adventure with a unique culinary twist. Players navigate through a vibrant world where imaginative characters and playful challenges bring dim sum-inspired creativity to life.",
-    skills: ["Unity", "C#"],
-    image: `./image/project/Dimsum in the Sea.png`,
-  },
+  // {
+  //   link: "https://tommietong.itch.io/dimsum-in-the-sea",
+  //   title: "Dimsum in the Sea",
+  //   description:
+  //     "Dimsum in the Sea is an immersive game on itch.io that offers a whimsical underwater adventure with a unique culinary twist. Players navigate through a vibrant world where imaginative characters and playful challenges bring dim sum-inspired creativity to life.",
+  //   skills: ["Unity", "C#"],
+  //   image: `./image/project/Dimsum in the Sea.png`,
+  // },
   // {
   //   link: "https://tommietky.github.io/pizzamaker/",
   //   title: "Build Your Perfect Pizza",
